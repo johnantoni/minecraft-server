@@ -9,6 +9,8 @@ http://msmhq.com/
 
 #### install
 
+(currently ubuntu 14.04 LTS 64bit edition)
+
     apt-get purge apache*
     apt-get purge samba*
     apt-get update
