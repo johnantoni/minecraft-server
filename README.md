@@ -5,6 +5,8 @@ minecraft server setup notes
 
 http://msmhq.com/
 
+### maintenance
+
 #### install
 
     apt-get purge apache*
@@ -39,3 +41,11 @@ or every 1 hour
 #### backup
 
     msm myserver worlds backup
+
+backups stored in /opt/msm/archives/worlds/[servername]/world
+
+### layout
+
+    /opt/msm/servers/[servername]
+    .../world (symlinked to /opt/msm/servers/[servername]/worldstorage/world
+    .../eula.txt (must edit and set to agree=true to start minecraft 1.8)
