@@ -28,14 +28,14 @@ http://msmhq.com/
     ...edit eula.txt and set agree=true
     msm myserver start
 
-#### write to disk
+#### write worlds to disk
 
-    msm myserver save all
+    msm myserver worlds todisk
 
 or every 1 hour
 
-    0 */2 * * *  msm myserver save all
+    0 */1 * * *  msm myserver worlds todisk
 
 #### backup
 
-    msm myserver 
+    msm myserver worlds backup
