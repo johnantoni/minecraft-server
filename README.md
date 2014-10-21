@@ -46,6 +46,10 @@ or every 1 hour
 
 backups stored in /opt/msm/archives/worlds/[servername]/world
 
+backup every day at 6:30am
+
+    30 6 * * *  msm myserver worlds backup
+
 ### layout
 
     /opt/msm/servers/[servername]
